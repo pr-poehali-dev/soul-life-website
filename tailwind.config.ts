@@ -17,6 +17,10 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		fontFamily: {
+			'orbitron': ['Orbitron', 'sans-serif'],
+			'inter': ['Inter', 'sans-serif'],
+		},
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
@@ -61,6 +65,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				gaming: {
+					orange: '#FF6B35',
+					'orange-dark': '#E55A2B',
+					dark: '#1A202C',
+					'dark-light': '#2D3748',
+					white: '#FFFFFF'
 				}
 			},
 			borderRadius: {
